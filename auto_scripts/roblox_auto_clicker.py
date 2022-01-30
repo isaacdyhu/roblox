@@ -128,7 +128,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(formatter_class=argparse.RawDescriptionHelpFormatter,
                                      description=textwrap.dedent("""
     Hot keys to control the programs:
-        <cmd>+<shift>+s: Enable clicker
+        <cmd>+<shift>+l: Enable clicker
         <cmd>+<shift>+p: Disable clicker
         <cmd>+<shift>+]: Increase speed
         <cmd>+<shift>+[: Decrease speed
@@ -170,7 +170,7 @@ if __name__ == "__main__":
     # Initialising hot keys of the clicker
     #
     with keyboard.GlobalHotKeys({
-        '<cmd>+<shift>+s': enable_clicker,
+        '<cmd>+<shift>+l': enable_clicker,
         '<cmd>+<shift>+p': disable_clicker,
         '<cmd>+<shift>+]': increase_click_intv,
         '<cmd>+<shift>+[': decrease_click_intv,
